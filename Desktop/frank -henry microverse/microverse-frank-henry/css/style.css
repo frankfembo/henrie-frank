@@ -16,7 +16,11 @@ body{
     margin: 0;
     padding: 0;
     font-family: montserrat;
-background-color: rgb(128, 120, 207);
+
+background-image: linear-gradient( 
+
+    115deg
+    , rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 height: 100vh;
 overflow: hidden;
 }
@@ -29,18 +33,15 @@ overflow: hidden;
     width:500px;
     border-radius: 10px;
      padding: 0 40px;
-     
-     
+     /* background-color: rgb(27,27,50,0.8) */
+     background-color: #1b1b32;
      position:absolute;
      top: 50%;
      left: 50%;
      width:500px;
     
      
-     background-image: linear-gradient( 
-
- 115deg
- , rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+   
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
@@ -82,9 +83,12 @@ overflow: hidden;
     display: block;
     color: white;
 }
-#multiselect-label .input{
+#multiselect-label{
     display: block;
     color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
 
@@ -95,12 +99,12 @@ h1{
     width:400px;
     top: 50%;
     left: 50%;
-    padding: 0 600px;
+    padding: 0 460px;
 }
 p{
     color: white;
     width:400px;
     top: 50%;
     left: 50%;
-    padding: 0 600px;
+    padding: 0 460px;
 }
